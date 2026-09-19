@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f7fa;
+  --surface: #fff;
+  --text: #203047;
+  --muted: #738197;
+  --border: #e1e7ef;
+  --accent: #167968;
+  --accent-hover: #106354;
+  --soft: #eaf4f1;
+  --danger: #b63e47;
+  --error-bg: #fff0f0;
+  --error-border: #f4d0d0;
+  --phone-edge: #344358;
+  --phone-bg: #eef2f6;
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #151b24;
+  --surface: #1e2733;
+  --text: #e1e9f4;
+  --muted: #9aa9bc;
+  --border: #354252;
+  --accent: #42aa95;
+  --accent-hover: #308c7a;
+  --soft: #243d3b;
+  --danger: #ff969f;
+  --error-bg: #3d252c;
+  --error-border: #62414b;
+  --phone-edge: #435268;
+  --phone-bg: #18212e;
+}
